@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylecadastrologin.css">
+    <title>Crie seu cadastro</title>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <h1 class="retangulotitulo">Crie seu Cadastro</h1>
+            <img src="./img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
+
+            <form action="#" method="GET" id="frmContato">
+                <fieldset>
+                    <label for="idEmail">Email:</label>
+                    <input type="email" id="idEmail" name="Email" placeholder="Insira seu Email" required>
+
+                    <label for="idNome">Nome:</label>
+                    <input type="text" id="idNome" name="nome" placeholder="Insira seu nome" required>
+
+                    <label for="idSenha">Senha:</label>
+                    <input type="password" id="idSenha" name="senha" placeholder="Insira sua Senha" required>
+
+                    <label for="idConfSenha">Confirme sua senha:</label>
+                    <input type="password" id="idConfSenha" name="senha" placeholder="Confirme a sua senha" required>
+                    
+
+                    <button type="submit" id="btnEntrar" onclick="cadastrar(event)">Finalizar cadastro</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

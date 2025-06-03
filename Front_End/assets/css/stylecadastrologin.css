@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .hero {
@@ -26,10 +27,10 @@ body {
   height: 80vh;
   margin: 2rem;
   border-radius: 5px;
-  overflow: auto;
+  
 }
 
-.retangulologin {
+.retangulotitulo {
   display: inline-block;
   background: linear-gradient(to right, #38a8c7, #1e1e1e);
   color: white;
@@ -38,7 +39,7 @@ body {
   border: 1px solid #000;
   border-radius: 15px;
   text-align: center;
-  margin: 2rem auto;
+  margin: auto;
 }
 
 .logocentro {
@@ -80,7 +81,8 @@ label {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"] {
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #000000c9;
@@ -96,7 +98,7 @@ input::placeholder {
   font-size: 1.3rem;
 }
 
-button {
+ form fieldset button {
   padding: 1rem;
   border-radius: 5px;
   border: 1px solid #000000c9;

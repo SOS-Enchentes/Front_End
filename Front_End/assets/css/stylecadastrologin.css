@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  max-width: 100%;
+  height: 80vh;
+  margin: 20px;
+  margin-bottom: 0;
+  border-radius: 5px;
+  border: none;
+  overflow: auto;
+}
+
+.retangulologin {
+  display: inline-block;
+  background: linear-gradient(to right, #38a8c7, #1e1e1e);
+  color: white;
+  font-size: 5rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.logocentro {
+  width: auto;
+  max-width: 35rem;
+  height: auto;
+  align-self: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.hero div form fieldset {
+  border: 0;
+}
+
+.hero div form fieldset input {
+  padding: 10px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: #000000c9;
+  width: 100%;
+  max-width: 30rem;
+}
+
+input::placeholder {
+  color: #000000c9;
+  font-weight: bold;
+  background-color: white;
+  font-size: 13px;
+  text-align: left;
+}
+
+.hero div form fieldset button {
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: #169ca6c9;
+  width: 19rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  text-align: center;
+}
+
+/*media queries */
+
+
+@media (max-width: 600px) {
+  .retangulologin {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .logocentro {
+    max-width: 20rem;
+  }
+
+  .hero div {
+    font-size: 1.4rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero div form fieldset input {
+    max-width: 25rem;
+    font-size: 1.4rem;
+  }
+
+  .hero div form fieldset button {
+    width: 16rem;
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .retangulologin {
+    font-size: 3.6rem;
+    padding: 1rem 2.2rem;
+  }
+
+  .logocentro {
+    max-width: 26rem;
+  }
+
+  .hero div {
+    font-size: 1.6rem;
+  }
+
+  .hero div form fieldset input {
+    max-width: 28rem;
+  }
+
+  .hero div form fieldset button {
+    width: 17rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .retangulologin {
+    font-size: 4rem;
+    padding: 1.2rem 2.5rem;
+  }
+
+  .logocentro {
+    max-width: 30rem;
+  }
+
+  .hero div {
+    font-size: 1.8rem;
+  }
+
+  .hero div form fieldset input {
+    max-width: 30rem;
+  }
+
+  .hero div form fieldset button {
+    width: 18rem;
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .retangulologin {
+    font-size: 4.5rem;
+    padding: 1.4rem 2.8rem;
+  }
+
+  .logocentro {
+    max-width: 33rem;
+  }
+
+  .hero div {
+    font-size: 2rem;
+  }
+
+  .hero div form fieldset input {
+    max-width: 32rem;
+  }
+
+  .hero div form fieldset button {
+    width: 19rem;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .retangulologin {
+    font-size: 5rem;
+    padding: 1.6rem 3rem;
+  }
+
+  .logocentro {
+    max-width: 35rem;
+  }
+
+  .hero div {
+    font-size: 2.2rem;
+  }
+
+  .hero div form fieldset input {
+    max-width: 34rem;
+  }
+
+  .hero div form fieldset button {
+    width: 20rem;
+    font-size: 2.2rem;
+  }
+}

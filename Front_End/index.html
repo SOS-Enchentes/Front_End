@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Páina Inicial</title>
+    <link rel="stylesheet" href="/Front_End/assets/css/stylecadastrologin.css">
+    <title>Página login</title>
 </head>
 <body>
+    <main>
+        <section class="hero">
+            <h1 class="retangulologin">FAZER LOGIN</h1>
+            <img src="./assets/img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
 
-
-
+            <div>
+                <form action="#" method="GET" id="frmContato">
+                    <fieldset>
+                        <div>
+                            <input type="email" name="Email" id="idEmail" placeholder="Insira seu Email" required>
+                        </div>
+                        <div>
+                            <input type="password" name="senha" id="idSenha" placeholder="Insira sua Senha" required>
+                        </div>
+                        <div>
+                            <button type="submit" id="btnEntrar" onclick="logar(event)">Entrar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

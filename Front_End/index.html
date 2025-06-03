@@ -12,21 +12,19 @@
             <h1 class="retangulologin">FAZER LOGIN</h1>
             <img src="./assets/img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
 
-            <div>
-                <form action="#" method="GET" id="frmContato">
-                    <fieldset>
-                        <div>
-                            <input type="email" name="Email" id="idEmail" placeholder="Insira seu Email" required>
-                        </div>
-                        <div>
-                            <input type="password" name="senha" id="idSenha" placeholder="Insira sua Senha" required>
-                        </div>
-                        <div>
-                            <button type="submit" id="btnEntrar" onclick="logar(event)">Entrar</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+            <form action="#" method="GET" id="frmContato">
+                <fieldset>
+                    
+                    
+                    <label for="idEmail">Email:</label>
+                    <input type="email" id="idEmail" name="Email" placeholder="Insira seu Email" required>
+
+                    <label for="idSenha">Senha:</label>
+                    <input type="password" id="idSenha" name="senha" placeholder="Insira sua Senha" required>
+
+                    <button type="submit" id="btnEntrar" onclick="logar(event)">Entrar</button>
+                </fieldset>
+            </form>
         </section>
     </main>
 </body>

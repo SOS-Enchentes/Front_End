@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  max-width: 100%;
+  height: 80vh;
+  margin: 2rem;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.retangulologin {
+  display: inline-block;
+  background: linear-gradient(to right, #38a8c7, #1e1e1e);
+  color: white;
+  font-size: 5rem;
+  padding: 1.6rem 3rem;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.logocentro {
+  width: auto;
+  max-width: 35rem;
+  height: auto;
+  align-self: center;
+  margin: 2rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+legend {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #000000c9;
+  width: 100%;
+  max-width: 34rem;
+  font-size: 1.6rem;
+}
+
+input::placeholder {
+  color: #000000c9;
+  font-weight: bold;
+  background-color: white;
+  font-size: 1.3rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #000000c9;
+  width: 20rem;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%);
+  cursor: pointer;
+}
+
+
+   /*MEDIA QUERIES*/
+
+
+
+@media (max-width: 600px) {
+  .retangulologin {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .logocentro {
+    max-width: 20rem;
+  }
+
+  label {
+    font-size: 1.4rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    max-width: 25rem;
+    font-size: 1.4rem;
+  }
+
+  button {
+    width: 16rem;
+    font-size: 1.6rem;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .retangulologin {
+    font-size: 3.6rem;
+    padding: 1rem 2.2rem;
+  }
+
+  .logocentro {
+    max-width: 26rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    max-width: 28rem;
+  }
+
+  button {
+    width: 17rem;
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .retangulologin {
+    font-size: 4rem;
+    padding: 1.2rem 2.5rem;
+  }
+
+  .logocentro {
+    max-width: 30rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    max-width: 30rem;
+  }
+
+  button {
+    width: 18rem;
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .retangulologin {
+    font-size: 4.5rem;
+    padding: 1.4rem 2.8rem;
+  }
+
+  .logocentro {
+    max-width: 33rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    max-width: 32rem;
+  }
+
+  button {
+    width: 19rem;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  .retangulologin {
+    font-size: 5rem;
+    padding: 1.6rem 3rem;
+  }
+
+  .logocentro {
+    max-width: 35rem;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    max-width: 34rem;
+  }
+
+  button {
+    width: 20rem;
+    font-size: 2.2rem;
+  }
+}

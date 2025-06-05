@@ -106,8 +106,8 @@ header nav ul li button{
 }
 
 .fotoenchente{
-    border-radius: 10px;
-    z-index: 1000;
+  border-radius: 10px;
+  z-index: 1000;
     
 }
 
@@ -123,19 +123,20 @@ header nav ul li button{
   
 }
 
-.botoes button {
+.btn {
+  display: inline-block;
   padding: 15px 20px;
   border: 2px solid #444;
-  background-color: #dcdcdc;
+  background-color: #f5f3f3;
   border-radius: 20px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-  transition: background-color 0.3s;
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
-
-.botoes button:hover {
+.btn:hover {
   background-color: #c0c0c0;
 }
 
@@ -211,7 +212,8 @@ header nav ul li button{
   border: 2px solid #000;
   border-radius: 10px;
   padding: 20px;
-  width: 600px;
+  width: 90%px;
+  max-width: 600px;
   margin:auto;
 }
 
@@ -219,7 +221,7 @@ header nav ul li button{
   background-color: #e0e0e0; 
   padding: 20px;
   border-radius: 10px;
-  width: 320px;
+  width: 100%;
   border: 2px solid black;
   font-family: Arial, sans-serif;
   font-size: 15px;

@@ -397,6 +397,31 @@ footer{
   margin-right: 10px;
 }
 
+.caixafaq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #349FB7 38%, #041B21 79%); 
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 1300px;
+  margin: 0 auto; 
+}
+
+.containerfaq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #349FB7; 
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  margin:auto;
+}
+
 @media (max-width: 600px) {
   .caixatitulo, .retanguloajuda {
     flex-direction: column;

@@ -149,6 +149,16 @@ input::placeholder {
   cursor: pointer;
 }
 
+  .esqueciminhasenhatexto{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.35rem;
+}
+
+.esqueciminhasenhatexto:hover{
+  color: blue;
+}
 
    /*MEDIA QUERIES*/
 

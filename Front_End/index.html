@@ -3,29 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Front_End/assets/css/stylecadastrologin.css">
-    <title>Página login</title>
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="./assets/css/stylecadastrologin.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
+    <header>
+        <h1 class="retangulotitulo">Fazer Login</h1>
+    </header>
+
     <main>
         <section class="hero">
-            <h1 class="retangulotitulo">FAZER LOGIN</h1>
-            <img src="assets/img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
+            <img src="./assets/img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
 
             <form action="#" method="GET" id="frmContato">
                 <fieldset>
                     <label for="idEmail">Email:</label>
-                    <input type="email" id="idEmail" name="Email" placeholder="Insira seu Email" required>
+                    <input type="email" id="idEmail" name="email" placeholder="Insira seu Email" required>
 
                     <label for="idSenha">Senha:</label>
                     <input type="password" id="idSenha" name="senha" placeholder="Insira sua Senha" required>
-                    <p><a href="/Front_End/assets/esquecisenha.html" class="esqueciminhasenhatexto">Esqueci minha senha</a></p>
+
+                    <p><a href="./assets/esquecisenha.html" class="esqueciminhasenhatexto">Esqueci minha senha</a></p>
 
                     <button type="submit" id="btnEntrar" onclick="logar(event)">Entrar</button>
                 </fieldset>
             </form>
-            <p class="naotemcadastro"><a href="/Front_End/assets/cadastro.html" class="naotemcadastro">Não tem um cadastro? Clique aqui para criar um.</a></p>
+
+            <p class="naotemcadastro">
+                <a href="./assets/cadastro.html">Não tem um cadastro? Clique aqui para criar um.</a>
+            </p>
         </section>
     </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./assets/integrantesdeslogado.html">Nossos integrantes</a></li>
+                <li>|</li>
+                <li><a href="./assets/contatosdeslogado.html">Contatos de emergência</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

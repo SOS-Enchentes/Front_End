@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/stylecadastrologin.css">
+    <script src="./js/script.js" defer></script>
     <title>Crie seu cadastro</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="headeresqueci">Fazer cadastro</h1>
+    </header>
     <main>
-        <section class="hero">
+        <section class="herocadastro">
             <button class="vector" onclick="window.location.href='../index.html'"><img src="./img/setaesquerda.png" alt="seta-esquerda"></button>
-            <h1 class="retangulotitulo">Crie seu Cadastro</h1>
             <img src="./img/logo.png" alt="Logo SOS Enchentes" class="logocentro">
 
             <form action="#" method="GET" id="frmContato">
@@ -26,13 +28,22 @@
                     <input type="password" id="idSenha" name="senha" placeholder="Insira sua Senha" required>
 
                     <label for="idConfSenha">Confirme sua senha:</label>
-                    <input type="password" id="idConfSenha" name="senha" placeholder="Confirme a sua senha" required>
+                    <input type="password" id="idConfSenha" name="Confirmarsenha" placeholder="Confirme a sua senha" required>
                     
 
-                    <button type="submit" id="btnEntrar" onclick="cadastrar(event)">Finalizar cadastro</button>
+                    <button type="submit" id="btnCadastrar" onclick="cadastrar(event)">Finalizar cadastro</button>
                 </fieldset>
             </form>
         </section>
     </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="integrantesdeslogado.html">Nossos integrantes</a></li>
+                <li>|</li>
+                <li><a href="contatosdeslogado.html">Contatos de emergência</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

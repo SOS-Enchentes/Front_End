@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylecadastrologin.css">
+    <title>Esqueci minha senha</title>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <button class="vector" onclick="window.location.href='../index.html'"><img src="./img/setaesquerda.png" alt="seta-esquerda"></button>
+            <h1 class="retangulotitulo">Esqueci minha senha</h1>
+            <img src="/Front_End/assets/img/logo.png" alt="Logo " class="logocentro">
+
+            <form action="#" method="get" id="frmsenha">
+                <fieldset>
+                    <label for="idSenhanova">Nova senha:</label>
+                    <input type="password" name="NovaSenha" id="idSenhanova" placeholder="Redefinir senha" required>
+
+                    <label for="idConfirmarSenhanova">Confirme a senha:</label>
+                    <input type="password" name="ConfirmarSenhanova" id="idConfirmarSenhanova" placeholder="Confirmar senha" required>
+
+                    <button type="submit" id="btnEntrar" onclick="esqueciminhasenha(event)">Finalizado</button>
+                </fieldset>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

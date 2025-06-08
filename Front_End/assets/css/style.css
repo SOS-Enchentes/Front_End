@@ -263,6 +263,59 @@ footer{
 
 }
 
+footer a {
+    display: flex;
+    align-items: center;
+    color: #1277BD;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    gap: 3px;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+footer nav ul li a {
+    display: flex;
+    margin: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul li button {
+    border: none;
+    background-color: #169ca600;
+    margin: 5px;
+    margin-top: 8px;
+}
+
+footer nav ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
 .caixaintegrantes {
   display: flex;
   align-items: center;
@@ -490,6 +543,86 @@ input::placeholder {
 }
 
 
+.retangulotituloajuda {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.retangulotituloajuda h2 {
+  background-color: #3fb4c6;
+  color: black;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.ajudas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  width: 100%;
+}
+
+.ajudas label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  gap: 6px;
+  
+}
+
+.ajudas input[type="checkbox"] {
+  accent-color: #3fb4c6;
+}
+
+.btnsalvar {
+  grid-column: span 2;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #87c6d1;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.pontilhado {
+  border: none;
+  border-top: 2px dashed #333;
+  margin: 40px auto;
+  width: 80%;
+}
+
+.ajudas input[type="text"] {
+    width: 100%;
+    box-sizing: border-box; /* Garante que padding/borda não quebrem o layout */
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.ajudas label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 600px) {
@@ -543,11 +676,7 @@ input::placeholder {
     font-size: 14px;
   }
 
-  footer {
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-  }
+  
 }
 
 @media (min-width: 600px) {

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <title>Ajudas</title>
 </head>
 <body>
@@ -26,41 +26,47 @@
         <section class="hero"><br><br>
             <div class="caixaamarela">
                 <img src="img/ajudando.png" alt="ajudando" class="perigo">
-                <p class="textocaixaamarela"> Em tempos de enchente, estenda a mão — ajude ou peça ajuda. Ninguém fica para trás! </p>
+                <p class="textocaixaamarela">Em tempos de enchente, estenda a mão: ajude ou peça ajuda. Ninguém fica para trás!</p>
             </div><br>
             <div class="retangulotituloajuda">
                 <h2>Oferecer ajuda</h2>
+                <form action="#" method="post">
                 <div class="ajudas">
-                    <label><input type="checkbox" name="ajuda" value="cesta"> Doar cesta básica</label>
-                    <label><input type="checkbox" name="ajuda" value="outra"> Alguma outra doação</label>
-                    <label><input type="checkbox" name="ajuda" value="psico"> Apoio psicológico</label>
-                    <label><input type="checkbox" name="ajuda" value="limpeza"> Voluntariar limpeza</label>
-                    <label><input type="checkbox" name="ajuda" value="medico"> Atendimento médico</label>
+                    <label for="idCesta"><input id="idCesta" type="checkbox" name="ajuda" value="cesta"> Doar cesta básica</label>
+                    <label for="idOutra"><input id="idOutra" type="checkbox" name="ajuda" value="outra"> Alguma outra doação</label>
+                    <label for="idPsico"><input id="idPsico" type="checkbox" name="ajuda" value="psico"> Apoio psicológico</label>
+                    <label for="idLimpe"><input id="idLimpe" type="checkbox" name="ajuda" value="limpeza"> Voluntariar limpeza</label>
+                    <label for="idMedico"><input id="idMedico" type="checkbox" name="ajuda" value="medico"> Atendimento médico</label>
                     <button type="submit" class="btnsalvar" id="btnSalvarAjuda" onclick="salvarajuda(event)">Salvar</button>
                 </div>
+                </form>
             </div><br>
             <hr class="pontilhado">
             <div class="retangulotituloajuda">
                 <h2>Doações</h2>
+                <form action="#" method="post">
                 <div class="ajudas">
                     <input type="text" name="tipo" id="idTipo" placeholder="Tipo do item" required>
-                    <input type="text" name="Descricao" id="idDesc" placeholder="Descrição do item" required>
-                    <input type="text" name="Quantidade" id="idQuant" placeholder="Quantidade" required>
-                    <input type="text" name="Contato" id="idContato" placeholder="Contato" required>
+                    <input type="text" name="descricao" id="idDesc" placeholder="Descrição do item" required>
+                    <input type="text" name="quantidade" id="idQuant" placeholder="Quantidade" required>
+                    <input type="text" name="contato" id="idContato" placeholder="Contato" required>
                     <button type="submit" class="btnsalvar" id="btnSalvarDoacao" onclick="salvardoacao(event)">Salvar</button>
                 </div>
+                </form>
             </div><br>
             <hr class="pontilhado">
             <div class="retangulotituloajuda">
                 <h2>Abrigo temporário</h2>
+                <form action="#" method="post">
                 <div class="ajudas">
                     <input type="text" name="nomecompleto" id="idNomecompleto" placeholder="Nome completo" required>
-                    <input type="text" name="Quantidadepessoas" id="idQuantPessoas" placeholder="Quantidade de pessoas" required>
-                    <label><input type="checkbox" name="necessidade" value="necessidade" required> Necessidade especial</label>
-                    <label><input type="checkbox" name="medicamento" value="medicamento" required> Usa algum medicamento</label>
-                    <label><input type="checkbox" name="animal" value="animal" required> Possui animal de estimação</label>
+                    <input type="text" name="quantidadepessoas" id="idQuantPessoas" placeholder="Quantidade de pessoas" required>
+                    <label for="idEspeci"><input id="idEspeci" type="checkbox" name="necessidade" value="especial" > Necessidade especial</label>
+                    <label for="idMedicamento"><input id="idMedicamento" type="checkbox" name="medicamento" value="medicamento" > Usa algum medicamento</label>
+                    <label for="idAnimal"><input id="idAnimal" type="checkbox" name="animal" value="animal" > Possui animal de estimação</label>
                     <button type="submit" class="btnsalvar" id="btnAbrigo" onclick="salvarabrigo(event)">Salvar</button>
                 </div>
+                </form>
             </div>
         </section>
     </main>
@@ -70,7 +76,7 @@
             <ul>
                 <li><a href="integrantes.html">Nossos integrantes</a></li>
                 <li>|</li>
-                <li><a href="contatos.html">Contatos de emêrgencia</a></li>
+                <li><a href="contatos.html">Contatos de emergência</a></li>
             </ul>
         </nav>
     </footer>

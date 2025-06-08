@@ -584,6 +584,7 @@ input::placeholder {
 
 .ajudas input[type="checkbox"] {
   accent-color: #3fb4c6;
+  cursor: pointer;
 }
 
 .btnsalvar {
@@ -615,7 +616,7 @@ input::placeholder {
     font-size: 14px;
 }
 
-.ajudas label {
+.ajudas label{
     display: flex;
     align-items: center;
     gap: 8px;

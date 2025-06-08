@@ -57,6 +57,7 @@ footer a {
     font-weight: bold;
     margin-left: 10px;
     gap: 3px;
+    
 }
 
 footer nav ul {
@@ -138,6 +139,15 @@ main {
   margin-top: 2rem;
   font-size: 1.5rem;
   
+}
+
+.naotemcadastro a{
+  text-decoration: none;
+  color: white;
+}
+
+.naotemcadastro a:hover{
+  color: blue;
 }
 
 section p a:hover{

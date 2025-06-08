@@ -607,7 +607,7 @@ input::placeholder {
 
 .ajudas input[type="text"] {
     width: 100%;
-    box-sizing: border-box; /* Garante que padding/borda não quebrem o layout */
+    box-sizing: border-box; 
     padding: 10px;
     border: 1px solid #333;
     background-color: white;

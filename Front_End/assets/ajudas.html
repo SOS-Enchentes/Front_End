@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
     <title>Ajudas</title>
 </head>
 <body>
@@ -46,7 +47,7 @@
                     <input type="text" name="Descricao" id="idDesc" placeholder="Descrição do item" required>
                     <input type="text" name="Quantidade" id="idQuant" placeholder="Quantidade" required>
                     <input type="text" name="Contato" id="idContato" placeholder="Contato" required>
-                    <button type="submit" class="btnsalvar" id="btnSalvarDoacao" onclick="salvarajuda(event)">Salvar</button>
+                    <button type="submit" class="btnsalvar" id="btnSalvarDoacao" onclick="salvardoacao(event)">Salvar</button>
                 </div>
             </div><br>
             <hr class="pontilhado">
@@ -55,10 +56,10 @@
                 <div class="ajudas">
                     <input type="text" name="nomecompleto" id="idNomecompleto" placeholder="Nome completo" required>
                     <input type="text" name="Quantidadepessoas" id="idQuantPessoas" placeholder="Quantidade de pessoas" required>
-                    <label><input type="checkbox" name="necessidade" value="necessidade"> Necessidade especial</label>
-                    <label><input type="checkbox" name="medicamento" value="medicamento"> Usa algum medicamento</label>
-                    <label><input type="checkbox" name="animal" value="animal"> Possui animal de estimação</label>
-                    <button type="submit" class="btnsalvar" id="btnSalvarDoacao" onclick="salvarajuda(event)">Salvar</button>
+                    <label><input type="checkbox" name="necessidade" value="necessidade" required> Necessidade especial</label>
+                    <label><input type="checkbox" name="medicamento" value="medicamento" required> Usa algum medicamento</label>
+                    <label><input type="checkbox" name="animal" value="animal" required> Possui animal de estimação</label>
+                    <button type="submit" class="btnsalvar" id="btnAbrigo" onclick="salvarabrigo(event)">Salvar</button>
                 </div>
             </div>
         </section>

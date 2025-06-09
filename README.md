@@ -3,7 +3,7 @@ Criar um site para ajudar as pessoas a se prepararem melhor para enfrentar enche
 
 No site, o usuário vai poder fazer doações, oferecer ajuda (como se voluntariar para a limpeza) e também se registrar, ou registrar alguém, para conseguir uma vaga em um abrigo temporário.
 
-A nossa estrutura de páginas ficou da seguinte forma: na raiz do projeto, temos o arquivo index.html e a pasta assets. Dentro da pasta assets, estão as pastas css, img e js, que armazenam, respectivamente, os arquivos CSS, as imagens e o script. Além disso, todos os outros arquivos HTML, com exceção do index.html, também estão dentro da pasta assets.
+A nossa estrutura de pastas ficou da seguinte forma: na raiz do projeto, temos o arquivo index.html e a pasta assets. Dentro da pasta assets, estão as pastas css, img e js, que armazenam, respectivamente, os arquivos CSS, as imagens e o script. Além disso, todos os outros arquivos HTML, com exceção do index.html, também estão dentro da pasta assets.
 
 As tecnologias que utilizei foram HTML5, CSS3 e JavaScript.
 
